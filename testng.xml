@@ -1,12 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-<listeners>
-<listener class-name="com.fitsyn.qa.ExtentReportListners.ExtentReportListner" />
-</listeners>
+
+
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.fitsyn.qa.testcases.Login"/>
-    </classes>
-  </test> <!-- Test -->
+        <class name="com.mario.qa.testcases.Territories"/>
+         <class name="com.mario.qa.testcases.Vehicle"/>       
+        <class name="com.mario.qa.testcases.Drivers"/>
+   </classes>
+      </test>   
+    
+
+     <test name="Test1">      
+      <classes> 
+      
+     <class name="com.mario.qa.testcases.Permits"/>
+          <class name="com.mario.qa.testcases.InsuranceProviders"/>
+            <class name="com.mario.qa.testcases.Insurances"/>
+                    
+             </classes>
+            </test>
+  
+ 
+     <test name="Test2">      
+      <classes> 
+                     <class name="com.mario.qa.testcases.PriceGroup"/>
+              <class name="com.mario.qa.testcases.Customers"/>
+              <class name="com.mario.qa.testcases.AddServiceRequest"/>      
+                <class name="com.mario.qa.testcases.Users"/>    
+                    
+             </classes>
+            </test>    
+ 
+  
+     <test name="Test3">      
+      <classes> 
+      
+    <class name="com.mario.qa.testcases.LoggoutUser"/>                     
+             </classes>
+            </test> 
+
+     <test name="Test4">      
+      <classes> 
+      
+    <class name="com.mario.qa.testcases1.AddServiceRequest"/>                     
+             </classes>
+            </test> 
+    
+  <!-- Test -->
 </suite> <!-- Suite -->
+

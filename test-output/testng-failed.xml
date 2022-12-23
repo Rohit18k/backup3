@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.fitsyn.qa.testcases.RailTwoAPIData">
+      <class name="com.mario.qa.testcases.AddServiceRequest">
         <methods>
-          <include name="openBrowser"/>
-          <include name="validData"/>
-          <include name="submitform"/>
+          <include name="addServiceRequest"/>
+          <include name="viewServiceRequestDetails"/>
+          <include name="editServiceRequestDetails"/>
         </methods>
-      </class> <!-- com.fitsyn.qa.testcases.RailTwoAPIData -->
+      </class> <!-- com.mario.qa.testcases.AddServiceRequest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
